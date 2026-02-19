@@ -1,0 +1,166 @@
+
+/* ============= CSS Variables =================== */
+
+:root {
+    --bg-primary: #d9c6f9;
+    --bg-secondary: darkblue;
+    --text-primary: light;
+    --color-primary: #473773;
+    --color-secondary: #003366;
+    --shadow: 0 2px 20px rgba(0,0,0,0.1);
+
+}
+
+/* =========== Reset & Base ========== */
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("https://th.bing.com/th/id/R.8b35fef55fba1a201c9c7a11d3ec3d64?rik=yzc%2fGil95nArtA&pid=ImgRaw&r=0") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: lightseagreen;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+/* =========== Header ========== */
+
+header{
+    text-align: center;
+    background-color: darkblue;
+    color: lightseagreen;
+    padding: 2rem;
+    border-radius: 100px;
+    border-left: 20px solid #003366;
+    border-right: 20px solid #003366;
+    margin-bottom: 2rem;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+.tagline{
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* =========== Navigation ========== */
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin:  1rem 0 2rem 0;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
+    color: lightseagreen;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+
+}
+
+nav a:hover{
+    color: #0047AB;
+    text-decoration: underline;
+}
+
+.nav-container {
+    background: darkblue;
+}
+
+/* =========== Main ========== */
+
+main{
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+/* ========== About ========= */
+
+#about{
+    background-color: mediumpurple;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-left: 20px solid #003366;
+    border-radius: 100px;
+}
+
+.about-text {
+    margin-bottom: 1rem;
+}
+
+/* ========== Details ======== */
+
+details {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #c4a2fc;
+    border: 1px solid #003366;
+    border-radius: 100px;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ========== Headings =========== */
+
+h2,h3{
+    color: lightseagreen;
+    margin-bottom: 1rem;
+}
+
+/* ========== responsive design ========= */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .theme-toggle {
+        position: static;
+        margin-bottom: 1rem;
+    }
+
+    @media print {
+        .theme-toggle {
+            display: none;
+        }
+
+        body {
+            background: white;
+            color: black;
+        }
+    }
+}

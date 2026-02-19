@@ -3,10 +3,10 @@
 
 :root {
     --bg-primary: #d9c6f9;
-    --bg-secondary: mediumpurple;
-    --text-primary:purple;
+    --bg-secondary: #003366;
+    --text-primary: light;
     --color-primary: #473773;
-    --color-secondary: #291b52;
+    --color-secondary: #000435;
     --shadow: 0 2px 20px rgba(0,0,0,0.1);
 
 }
@@ -15,7 +15,6 @@
 
 
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,22 +26,29 @@ html {
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #d9c6f9;
-    color: purple;
-    line-height: 1.6;
-    padding: 2rem;
+background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczBnbjh5eHZoZmw3dW9mZzdvaG03MXQ3ajQyYzE1M2YwMGl1OTR0bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rpl1sod1vCXK0L2SUN/giphy.gif') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000435;
+line-height: 1.6;
+padding: 2rem;
 }
 
 /* =========== Header ========== */
 
 header{
     text-align: center;
-    background-color: mediumpurple;
-    color: purple;
+    background-color: #003366;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: #000435;
     padding: 2rem;
     border-radius: 100px;
-    border-left: 20px solid #473773;
-    border-right: 20px solid #473773;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
     margin-bottom: 2rem;
 }
 
@@ -50,11 +56,13 @@ header h1{
     font-size: 2rem;
 }
 
+
 .tagline{
     font-style: italic;
     font-size: 1.2rem;
     margin-top: 0.5rem;
 }
+
 /* =========== Navigation ========== */
 
 nav ul{
@@ -68,17 +76,29 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: #473773;
+    color: #000435;
     font-weight: bold;
     transition: color 0.3s ease;
-
+   font-size: 2.4rem;
 
 }
 
 nav a:hover{
-    color: #291b52;
+    color: #0047AB;
     text-decoration: underline;
 }
+
+.nav-container {
+    margin-top: 4rem;
+    margin-left: 23rem;
+    max-width: 900px;
+    padding: 0 20px;
+    background-color: #003366;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 30px;
+}
+
 /* =========== Main ========== */
 
 main{
@@ -92,14 +112,43 @@ main{
     margin: auto;
     padding: 1rem;
 }
+.wrapper{
+    max-width: 1300px;
+    margin: auto;
+    padding: 2rem;
+background-color: #003366;
+    border-radius: 60px;
+    border-left: 20px solid black;
+}
 
+/* ========== img ========= */
+
+img {
+    width: 150px;
+    height: auto;
+    margin-left: 4rem;
+}
+
+.img-container{
+    background-color: #003366;
+    margin-top: -23rem;
+    margin-left: -15rem;
+    margin-right: auto;
+    padding: 2rem;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 50px;
+    width: 200px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
 /* ========== About ========= */
 
 #about{
     background-color: mediumpurple;
     padding: 2rem;
     margin-bottom: 2rem;
-    border-left: 20px solid #473773;
+    border-left: 20px solid #003366;
     border-radius: 100px;
 }
 
@@ -107,13 +156,26 @@ main{
     margin-bottom: 1rem;
 }
 
+.About-container {
+    background-color: #003366;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: auto;
+    padding: 2rem;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 50px;
+    width: 800px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
 /* ========== Details ======== */
 
 details {
     margin-top: 2rem;
     padding: 1.5rem;
     background-color: #c4a2fc;
-    border: 1px solid #473773;
+    border: 1px solid #003366;
     border-radius: 100px;
 }
 
@@ -124,9 +186,38 @@ details summary {
 
 /* ========== Headings =========== */
 
-h2,h3{
-    color: purple;
+h2{
+    color: #000435;
     margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+h3{
+    color: #000435;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+
+}
+/* ========= P ===========*/
+p{
+    color: #000435;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+p1{
+    color: #000435;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+/* ========== footer ========= */
+
+footer{
+    color: white;
+    margin-top: 4rem;
 }
 
 /* ========== responsive design ========= */

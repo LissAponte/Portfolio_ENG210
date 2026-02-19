@@ -1,1 +1,189 @@
 
+/* ============= CSS Variables =================== */
+
+:root {
+    --bg-primary: #d9c6f9;
+    --bg-secondary: #003366;
+    --text-primary: light;
+    --color-primary: #473773;
+    --color-secondary: #000435;
+    --shadow: 0 2px 20px rgba(0,0,0,0.1);
+
+}
+
+/* =========== Reset & Base ========== */
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("https://media.tenor.com/C_W9ZHt8ZS0AAAAM/emails-college.gif") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000435;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+/* =========== Header ========== */
+
+header{
+    text-align: center;
+    background-color: #003366;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: #000435;
+    padding: 2rem;
+    border-radius: 100px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    margin-bottom: 2rem;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+
+/* =========== Navigation ========== */
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin:  1rem 0 2rem 0;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000435;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 2.4rem;
+
+}
+
+nav a:hover{
+    color: #0047AB;
+    text-decoration: underline;
+}
+
+.nav-container {
+    margin-top: 4rem;
+    margin-left: 23rem;
+    max-width: 900px;
+    padding: 0 20px;
+    background-color: #003366;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 30px;
+}
+
+/* =========== Main ========== */
+
+main{
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.wrapper{
+    max-width: 1300px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #003366;
+    border-radius: 60px;
+    border-left: 20px solid black;
+}
+
+/* ========== ? ========= */
+
+
+/* ========== Details ======== */
+
+details {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #c4a2fc;
+    border: 1px solid #003366;
+    border-radius: 100px;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ========== Headings =========== */
+
+h2{
+    color: #000435;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+
+
+/* ========== P ========= */
+
+p{
+    color: #000435;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+/* ========== footer ========= */
+
+
+footer{
+    color: white;
+    margin-top: 6rem;
+}
+
+/* ========== responsive design ========= */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .theme-toggle {
+        position: static;
+        margin-bottom: 1rem;
+    }
+
+    @media print {
+        .theme-toggle {
+            display: none;
+        }
+
+        body {
+            background: white;
+            color: black;
+        }
+    }
+}
