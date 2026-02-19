@@ -85,7 +85,7 @@ nav a:hover{
 
 .nav-container {
     margin-top: 4rem;
-    margin-left: 23rem;
+    margin-left: 21rem;
     max-width: 900px;
     padding: 0 20px;
     background-color: #003366;
@@ -117,8 +117,25 @@ main{
     border-left: 20px solid black;
 }
 
-/* ========== ? ========= */
+/* ========== Container for the contact info list  ========= */
 
+.contact-container{
+    background-color: #003366;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    margin-right: auto;
+    padding: 2rem;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 50px;
+    width: 800px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
+
+a{
+    color: cornflowerblue;
+}
 
 /* ========== Details ======== */
 
@@ -153,13 +170,19 @@ p{
     text-align: justify;
     font-size: 1.5rem;
 }
+p1{
+    color: #000435;
+    margin-left: -1rem;
+    font-weight: bold;
+}
 
 /* ========== footer ========= */
 
 
 footer{
-    color: white;
-    margin-top: 6rem;
+    color: black;
+    margin-top: 20rem;
+    margin-left: -24rem;
 }
 
 /* ========== responsive design ========= */
