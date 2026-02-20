@@ -3,7 +3,7 @@
 :root {
     --bg-primary: #002147;
     --bg-secondary: #c4a2fc;
-    --text-primary: #000435;
+    --text-primary: #050035;
     --text-secondary: cornflowerblue;
     --color-primary: #0047AB;
     --color-secondary: #d9c6f9;
@@ -34,7 +34,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #000435;
+    color: #050035;
     line-height: 1.6;
     padding: 2rem;
 }
@@ -43,11 +43,11 @@ body {
 
 header{
     text-align: center;
-    background-color: #000435;
+    background-color: #050035;
     position: fixed;
     top: 1rem;
     right: 1rem;
-    color: #000435;
+    color: #050035;
     padding: 2rem;
     border-radius: 100px;
     border-left: 20px solid black;
@@ -79,7 +79,7 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: #000435;
+    color: #050035;
     font-weight: bold;
     transition: color 0.3s ease;
     font-size: 2.4rem;
@@ -96,7 +96,7 @@ nav a:hover{
     margin-left: 23rem;
     max-width: 900px;
     padding: 0 20px;
-    background-color: #000435;
+    background-color: #050035;
     border-left: 20px solid black;
     border-right: 20px solid black;
     border-radius: 30px;
@@ -119,7 +119,7 @@ main{
     max-width: 1300px;
     margin: auto;
     padding: 2rem;
-    background-color: #000435;
+    background-color: #050035;
     border-radius: 60px;
     border-left: 20px solid black;
     border-right: 20px solid black;
@@ -134,7 +134,7 @@ img {
 }
 
 .img-container{
-    background-color: #000435;
+    background-color: #050035;
     margin-top: -23rem;
     margin-left: -15rem;
     margin-right: auto;
@@ -152,7 +152,7 @@ img {
     background-color: mediumpurple;
     padding: 2rem;
     margin-bottom: 2rem;
-    border-left: 20px solid #000435;
+    border-left: 20px solid #050035;
     border-radius: 100px;
 }
 
@@ -161,7 +161,7 @@ img {
 }
 
 .About-container {
-    background-color: #000435;
+    background-color: #050035;
     margin-top: 2rem;
     margin-left: 10rem;
     margin-right: auto;
@@ -179,7 +179,7 @@ details {
     margin-top: 2rem;
     padding: 1.5rem;
     background-color: #c4a2fc;
-    border: 1px solid #000435;
+    border: 1px solid #050035;
     border-radius: 100px;
 }
 
@@ -191,13 +191,13 @@ details summary {
 /* ========== Headings =========== */
 
 h2{
-    color: #000435;
+    color: #050035;
     margin-bottom: 1rem;
     margin-left: 5rem;
 }
 
 h3{
-    color: #000435;
+    color: #050035;
     margin-bottom: 1rem;
     font-weight: bold;
     text-align: center;
@@ -206,13 +206,13 @@ h3{
 }
 /* ========= P ===========*/
 p{
-    color: #000435;
+    color: #050035;
     text-align: justify;
     font-size: 1.5rem;
 }
 
 p1{
-    color: #000435;
+    color: #050035;
     margin-left: 5rem;
     font-weight: bold;
 }
@@ -284,8 +284,8 @@ header{
     color: lightseagreen;
     padding: 2rem;
     border-radius: 100px;
-    border-left: 20px solid #000435;
-    border-right: 20px solid #000435;
+    border-left: 20px solid #050035;
+    border-right: 20px solid #050035;
     margin-bottom: 2rem;
 }
 
@@ -348,7 +348,7 @@ main{
     background-color: mediumpurple;
     padding: 2rem;
     margin-bottom: 2rem;
-    border-left: 20px solid #000435;
+    border-left: 20px solid #050035;
     border-radius: 100px;
 }
 
@@ -362,7 +362,7 @@ details {
     margin-top: 2rem;
     padding: 1.5rem;
     background-color: #c4a2fc;
-    border: 1px solid #000435;
+    border: 1px solid #050035;
     border-radius: 100px;
 }
 

@@ -4,7 +4,7 @@
 :root {
     --bg-primary: #002147;
     --bg-secondary: #c4a2fc;
-    --text-primary: #000435;
+    --text-primary: #050035;
     --text-secondary: cornflowerblue;
     --color-primary: #0047AB;
     --color-secondary: #d9c6f9;
@@ -36,7 +36,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #000435;
+    color: #050035;
     line-height: 1.6;
     padding: 2rem;
 }
@@ -49,7 +49,7 @@ header{
     position: fixed;
     top: 1rem;
     right: 1rem;
-    color: #000435;
+    color: #050035;
     padding: 2rem;
     border-radius: 100px;
     border-left: 20px solid black;
@@ -75,7 +75,7 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: #000435;
+    color: #050035;
     font-weight: bold;
     transition: color 0.3s ease;
     font-size: 2.4rem;
@@ -149,7 +149,7 @@ a{
 /* ========== Headings =========== */
 
 h2{
-    color: #000435;
+    color: #050035;
     margin-bottom: 1rem;
     margin-left: 2rem;
     font-size: 3rem;
@@ -160,13 +160,13 @@ h2{
 /* ========== P ========= */
 
 p{
-    color: #000435;
+    color: #050035;
     text-align: justify;
     font-size: 1.5rem;
     font-weight: bold;
 }
 p1{
-    color: #000435;
+    color: #050035;
     margin-left: -1rem;
     font-weight: bold;
 }

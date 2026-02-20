@@ -4,7 +4,7 @@
 :root {
     --bg-primary: #002147;
     --bg-secondary: #c4a2fc;
-    --text-primary: #000435;
+    --text-primary: #050035;
     --text-secondary: cornflowerblue;
     --color-primary: #0047AB;
     --color-secondary: #d9c6f9;
@@ -31,12 +31,12 @@ html {
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-image: url("https://media1.tenor.com/m/tNYus4tK5dEAAAAd/anime-computer.gif") ;
+    background-image: url("https://i.gifer.com/7F9v.gif") ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #000435;
+    color: #050035;
     line-height: 1.6;
     padding: 2rem;
 }
@@ -45,12 +45,15 @@ body {
 
 header{
     text-align: center;
-    background-color: darkblue;
-    color: #000435;
+    background-color: #002147;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: #050035;
     padding: 2rem;
     border-radius: 100px;
-    border-left: 20px solid #000435;
-    border-right: 20px solid #000435;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
     margin-bottom: 2rem;
 }
 
@@ -77,10 +80,10 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: lightseagreen;
+    color: #050035;
     font-weight: bold;
     transition: color 0.3s ease;
-
+    font-size: 2.4rem;
 
 }
 
@@ -90,7 +93,14 @@ nav a:hover{
 }
 
 .nav-container {
-    background: darkblue;
+    margin-top: 4rem;
+    margin-left: 21rem;
+    max-width: 900px;
+    padding: 0 20px;
+    background-color: #002147;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 30px;
 }
 
 /* =========== Main ========== */
@@ -107,13 +117,24 @@ main{
     padding: 1rem;
 }
 
+.wrapper{
+    max-width: 1300px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #002147;
+    border-radius: 60px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+
+}
+
 /* ========== About ========= */
 
 #about{
     background-color: mediumpurple;
     padding: 2rem;
     margin-bottom: 2rem;
-    border-left: 20px solid #000435;
+    border-left: 20px solid #050035;
     border-radius: 100px;
 }
 
@@ -127,7 +148,7 @@ details {
     margin-top: 2rem;
     padding: 1.5rem;
     background-color: #c4a2fc;
-    border: 1px solid #000435;
+    border: 1px solid #050035;
     border-radius: 100px;
 }
 

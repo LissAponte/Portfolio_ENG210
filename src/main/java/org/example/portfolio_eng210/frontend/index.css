@@ -4,7 +4,7 @@
 :root {
     --bg-primary: #002147;
     --bg-secondary: #c4a2fc;
-    --text-primary: #000435;
+    --text-primary: #050035;
     --text-secondary: cornflowerblue;
     --color-primary: #0047AB;
     --color-secondary: #d9c6f9;
@@ -35,7 +35,7 @@ background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczBnbjh
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #000435;
+    color: #050035;
 line-height: 1.6;
 padding: 2rem;
 }
@@ -48,7 +48,7 @@ header{
     position: fixed;
     top: 1rem;
     right: 1rem;
-    color: #000435;
+    color: #050035;
     padding: 2rem;
     border-radius: 100px;
     border-left: 20px solid black;
@@ -80,7 +80,7 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: #000435;
+    color: #050035;
     font-weight: bold;
     transition: color 0.3s ease;
    font-size: 2.4rem;
@@ -153,7 +153,7 @@ img {
     background-color: mediumpurple;
     padding: 2rem;
     margin-bottom: 2rem;
-    border-left: 20px solid #000435;
+    border-left: 20px solid #050035;
     border-radius: 100px;
 }
 
@@ -179,13 +179,13 @@ img {
 /* ========== Headings =========== */
 
 h2{
-    color: #000435;
+    color: #050035;
     margin-bottom: 1rem;
     margin-left: 5rem;
 }
 
 h3{
-    color: #000435;
+    color: #050035;
     margin-bottom: 1rem;
     font-weight: bold;
     text-align: center;
@@ -194,13 +194,13 @@ h3{
 }
 /* ========= P ===========*/
 p{
-    color: #000435;
+    color: #050035;
     text-align: justify;
     font-size: 1.5rem;
 }
 
 p1{
-    color: #000435;
+    color: #050035;
     margin-left: 5rem;
     font-weight: bold;
 }
