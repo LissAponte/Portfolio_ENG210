@@ -2,13 +2,17 @@
 /* ============= CSS Variables =================== */
 
 :root {
-    --bg-primary: #d9c6f9;
-    --bg-secondary: #003366;
-    --text-primary: light;
-    --color-primary: #473773;
-    --color-secondary: #000435;
-    --shadow: 0 2px 20px rgba(0,0,0,0.1);
-
+    --bg-primary: #002147;
+    --bg-secondary: #c4a2fc;
+    --text-primary: #000435;
+    --text-secondary: cornflowerblue;
+    --color-primary: #0047AB;
+    --color-secondary: #d9c6f9;
+    --border-color: black;
+    --shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    --border-radius-sm: 30px;
+    --border-radius-md: 50px;
+    --border-radius-lg: 100px;
 }
 
 /* =========== Reset & Base ========== */
@@ -41,7 +45,7 @@ body {
 
 header{
     text-align: center;
-    background-color: #003366;
+    background-color: #002147;
     position: fixed;
     top: 1rem;
     right: 1rem;
@@ -88,7 +92,7 @@ nav a:hover{
     margin-left: 21rem;
     max-width: 900px;
     padding: 0 20px;
-    background-color: #003366;
+    background-color: #002147;
     border-left: 20px solid black;
     border-right: 20px solid black;
     border-radius: 30px;
@@ -112,15 +116,18 @@ main{
     max-width: 1300px;
     margin: auto;
     padding: 2rem;
-    background-color: #003366;
+    background-color: #002147;
     border-radius: 60px;
     border-left: 20px solid black;
+    border-right: 20px solid black;
+
 }
+
 
 /* ========== Container for the contact info list  ========= */
 
 .contact-container{
-    background-color: #003366;
+    background-color: #002147;
     margin-top: 2rem;
     margin-left: -2rem;
     margin-right: auto;
@@ -137,20 +144,7 @@ a{
     color: cornflowerblue;
 }
 
-/* ========== Details ======== */
 
-details {
-    margin-top: 2rem;
-    padding: 1.5rem;
-    background-color: #c4a2fc;
-    border: 1px solid #003366;
-    border-radius: 100px;
-}
-
-details summary {
-    cursor: pointer;
-    font-weight: bold;
-}
 
 /* ========== Headings =========== */
 
@@ -169,6 +163,7 @@ p{
     color: #000435;
     text-align: justify;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 p1{
     color: #000435;

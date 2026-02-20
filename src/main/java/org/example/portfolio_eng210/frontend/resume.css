@@ -1,16 +1,254 @@
-
 /* ============= CSS Variables =================== */
 
 :root {
-    --bg-primary: #d9c6f9;
-    --bg-secondary: darkblue;
-    --text-primary: light;
-    --color-primary: #473773;
-    --color-secondary: #003366;
-    --shadow: 0 2px 20px rgba(0,0,0,0.1);
+    --bg-primary: #002147;
+    --bg-secondary: #c4a2fc;
+    --text-primary: #000435;
+    --text-secondary: cornflowerblue;
+    --color-primary: #0047AB;
+    --color-secondary: #d9c6f9;
+    --border-color: black;
+    --shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    --border-radius-sm: 30px;
+    --border-radius-md: 50px;
+    --border-radius-lg: 100px;
+}
+
+/* =========== Reset & Base ========== */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczBnbjh5eHZoZmw3dW9mZzdvaG03MXQ3ajQyYzE1M2YwMGl1OTR0bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Rpl1sod1vCXK0L2SUN/giphy.gif') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000435;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+/* =========== Header ========== */
+
+header{
+    text-align: center;
+    background-color: #000435;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: #000435;
+    padding: 2rem;
+    border-radius: 100px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    margin-bottom: 2rem;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+
+.tagline{
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* =========== Navigation ========== */
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin:  1rem 0 2rem 0;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000435;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 2.4rem;
 
 }
 
+nav a:hover{
+    color: #0047AB;
+    text-decoration: underline;
+}
+
+.nav-container {
+    margin-top: 4rem;
+    margin-left: 23rem;
+    max-width: 900px;
+    padding: 0 20px;
+    background-color: #000435;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 30px;
+}
+
+/* =========== Main ========== */
+
+main{
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+.wrapper{
+    max-width: 1300px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #000435;
+    border-radius: 60px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+}
+
+/* ========== img ========= */
+
+img {
+    width: 150px;
+    height: auto;
+    margin-left: 4rem;
+}
+
+.img-container{
+    background-color: #000435;
+    margin-top: -23rem;
+    margin-left: -15rem;
+    margin-right: auto;
+    padding: 2rem;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 50px;
+    width: 200px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
+/* ========== About ========= */
+
+#about{
+    background-color: mediumpurple;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-left: 20px solid #000435;
+    border-radius: 100px;
+}
+
+.about-text {
+    margin-bottom: 1rem;
+}
+
+.About-container {
+    background-color: #000435;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: auto;
+    padding: 2rem;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 50px;
+    width: 800px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
+/* ========== Details ======== */
+
+details {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #c4a2fc;
+    border: 1px solid #000435;
+    border-radius: 100px;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ========== Headings =========== */
+
+h2{
+    color: #000435;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+h3{
+    color: #000435;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+
+}
+/* ========= P ===========*/
+p{
+    color: #000435;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+p1{
+    color: #000435;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+
+/* ========== footer ========= */
+
+footer{
+    color: white;
+    margin-top: 3rem;
+}
+
+/* ========== responsive design ========= */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .theme-toggle {
+        position: static;
+        margin-bottom: 1rem;
+    }
+
+    @media print {
+        .theme-toggle {
+            display: none;
+        }
+
+        body {
+            background: white;
+            color: black;
+        }
+    }
+}
 /* =========== Reset & Base ========== */
 
 
@@ -45,8 +283,8 @@ header{
     color: lightseagreen;
     padding: 2rem;
     border-radius: 100px;
-    border-left: 20px solid #003366;
-    border-right: 20px solid #003366;
+    border-left: 20px solid #000435;
+    border-right: 20px solid #000435;
     margin-bottom: 2rem;
 }
 
@@ -109,7 +347,7 @@ main{
     background-color: mediumpurple;
     padding: 2rem;
     margin-bottom: 2rem;
-    border-left: 20px solid #003366;
+    border-left: 20px solid #000435;
     border-radius: 100px;
 }
 
@@ -123,7 +361,7 @@ details {
     margin-top: 2rem;
     padding: 1.5rem;
     background-color: #c4a2fc;
-    border: 1px solid #003366;
+    border: 1px solid #000435;
     border-radius: 100px;
 }
 
