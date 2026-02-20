@@ -1,4 +1,3 @@
-
 /* ============= CSS Variables =================== */
 
 :root {
@@ -16,7 +15,6 @@
 }
 
 /* =========== Reset & Base ========== */
-
 
 * {
 
@@ -61,11 +59,7 @@ header h1{
     font-size: 2rem;
 }
 
-.tagline{
-    font-style: italic;
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-}
+
 
 /* =========== Navigation ========== */
 
@@ -93,7 +87,7 @@ nav a:hover{
 }
 
 .nav-container {
-    margin-top: 7rem;
+    margin-top: 4rem;
     margin-left: 14rem;
     max-width: 1200px;
     padding: 0 20px;
@@ -119,7 +113,7 @@ main{
 
 .wrapper{
     max-width: 1300px;
-    margin: auto;
+    margin-top: 2rem;
     padding: 2rem;
     background-color: #002147;
     border-radius: 60px;
@@ -132,8 +126,8 @@ main{
 
 .skill-container{
     background-color: #002147;
-    margin-top: 2rem;
-    margin-left: -2rem;
+    margin-top: -1rem;
+    margin-left: -20rem;
     margin-right: auto;
     padding: 2rem;
     border-left: 20px solid black;
@@ -141,7 +135,46 @@ main{
     border-radius: 50px;
     width: 800px;
     min-width: 400px;
+    height: 450px;
     box-sizing: border-box;
+}
+
+/* ========== Languages container ========= */
+
+.languages-container{
+    background-color: #002147;
+    margin-top: -29rem;
+    margin-left: 30rem;
+    margin-right: auto;
+    padding: 2rem;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 50px;
+    width: 600px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
+
+/* ========== Other skills container =========== */
+
+.Other-skills-container{
+    background-color: #002147;
+    margin-top: 0.5rem;
+    margin-left: 30rem;
+    margin-right: auto;
+    padding: 1.5rem;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 50px;
+    width: 600px;
+    min-width: 400px;
+    box-sizing: border-box;
+}
+
+/* ========== list =========== */
+
+li{
+    font-weight: bold;
 }
 
 /* ========== Headings =========== */
@@ -153,11 +186,14 @@ h2{
     font-size: 3rem;
 }
 
+/* ========== Footer =========== */
 footer{
     color: white;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: -24rem;
 }
+
+
 /* ========== responsive design ========= */
 
 @media (max-width: 768px) {
