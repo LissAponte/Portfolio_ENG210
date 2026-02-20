@@ -93,9 +93,9 @@ nav a:hover{
 }
 
 .nav-container {
-    margin-top: 4rem;
-    margin-left: 21rem;
-    max-width: 900px;
+    margin-top: 7rem;
+    margin-left: 14rem;
+    max-width: 1200px;
     padding: 0 20px;
     background-color: #002147;
     border-left: 20px solid black;
@@ -114,7 +114,7 @@ main{
 .container{
     max-width: 900px;
     margin: auto;
-    padding: 1rem;
+    padding: 0.20rem;
 }
 
 .wrapper{
@@ -128,42 +128,36 @@ main{
 
 }
 
-/* ========== About ========= */
+/* ========== Skill container ========= */
 
-#about{
-    background-color: mediumpurple;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-left: 20px solid #050035;
-    border-radius: 100px;
-}
-
-.about-text {
-    margin-bottom: 1rem;
-}
-
-/* ========== Details ======== */
-
-details {
+.skill-container{
+    background-color: #002147;
     margin-top: 2rem;
-    padding: 1.5rem;
-    background-color: #c4a2fc;
-    border: 1px solid #050035;
-    border-radius: 100px;
-}
-
-details summary {
-    cursor: pointer;
-    font-weight: bold;
+    margin-left: -2rem;
+    margin-right: auto;
+    padding: 2rem;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 50px;
+    width: 800px;
+    min-width: 400px;
+    box-sizing: border-box;
 }
 
 /* ========== Headings =========== */
 
-h2,h3{
-    color: lightseagreen;
+h2{
+    color: #050035;
     margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 3rem;
 }
 
+footer{
+    color: white;
+    margin-top: 5rem;
+    margin-left: -24rem;
+}
 /* ========== responsive design ========= */
 
 @media (max-width: 768px) {
