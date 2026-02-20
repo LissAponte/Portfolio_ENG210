@@ -35,7 +35,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: lightseagreen;
+    color: #002147;
     line-height: 1.6;
     padding: 2rem;
 }
@@ -44,12 +44,15 @@ body {
 
 header{
     text-align: center;
-    background-color: darkblue;
-    color: lightseagreen;
+    background-color: #002147;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    color: #050035;
     padding: 2rem;
     border-radius: 100px;
-    border-left: 20px solid #050035;
-    border-right: 20px solid #050035;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
     margin-bottom: 2rem;
 }
 
@@ -57,8 +60,10 @@ header h1{
     font-size: 2rem;
 }
 
+
 .tagline{
     font-style: italic;
+    font-weight:bold;
     font-size: 1.2rem;
     margin-top: 0.5rem;
 }
@@ -76,10 +81,10 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: lightseagreen;
+    color: #050035;
     font-weight: bold;
     transition: color 0.3s ease;
-
+    font-size: 2.4rem;
 
 }
 
@@ -89,8 +94,16 @@ nav a:hover{
 }
 
 .nav-container {
-    background: darkblue;
+    margin-top: 4rem;
+    margin-left: 14rem;
+    max-width: 1200px;
+    padding: 0 20px;
+    background-color: #002147;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-radius: 30px;
 }
+
 
 /* =========== Main ========== */
 
@@ -103,44 +116,59 @@ main{
 .container{
     max-width: 900px;
     margin: auto;
-    padding: 1rem;
+    padding: 4rem;
+}
+
+.wrapper{
+    max-width: 1300px;
+    width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #002147;
+    border-radius: 60px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+
 }
 
 /* ========== About ========= */
 
-#about{
-    background-color: mediumpurple;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-left: 20px solid #050035;
-    border-radius: 100px;
-}
+/*#about{*/
+/*    background-color: mediumpurple;*/
+/*    padding: 2rem;*/
+/*    margin-bottom: 2rem;*/
+/*    border-left: 20px solid #050035;*/
+/*    border-radius: 100px;*/
+/*}*/
 
-.about-text {
-    margin-bottom: 1rem;
-}
+/*.about-text {*/
+/*    margin-bottom: 1rem;*/
+/*}*/
 
 /* ========== Details ======== */
 
-details {
-    margin-top: 2rem;
-    padding: 1.5rem;
-    background-color: #c4a2fc;
-    border: 1px solid #050035;
-    border-radius: 100px;
-}
+/*details {*/
+/*    margin-top: 2rem;*/
+/*    padding: 1.5rem;*/
+/*    background-color: #c4a2fc;*/
+/*    border: 1px solid #050035;*/
+/*    border-radius: 100px;*/
+/*}*/
 
-details summary {
-    cursor: pointer;
-    font-weight: bold;
-}
+/*details summary {*/
+/*    cursor: pointer;*/
+/*    font-weight: bold;*/
+/*}*/
 
 /* ========== Headings =========== */
 
-h2,h3{
-    color: lightseagreen;
+h2{
+    color: #050035;
     margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 3rem;
 }
+
 
 /* ========== responsive design ========= */
 
