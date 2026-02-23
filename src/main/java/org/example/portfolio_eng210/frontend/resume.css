@@ -43,7 +43,7 @@ body {
 
 header{
     text-align: center;
-    background-color: #050035;
+    background-color: #002147;
     position: fixed;
     top: 1rem;
     right: 1rem;
@@ -60,11 +60,6 @@ header h1{
 }
 
 
-.tagline{
-    font-style: italic;
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-}
 
 /* =========== Navigation ========== */
 
@@ -93,10 +88,10 @@ nav a:hover{
 
 .nav-container {
     margin-top: 4rem;
-    margin-left: 23rem;
-    max-width: 900px;
+    margin-left: 17rem;
+    max-width: 1200px;
     padding: 0 20px;
-    background-color: #050035;
+    background-color: #002147;
     border-left: 20px solid black;
     border-right: 20px solid black;
     border-radius: 30px;
@@ -110,58 +105,20 @@ main{
 }
 
 
-.container{
-    max-width: 900px;
-    margin: auto;
-    padding: 1rem;
-}
 .wrapper{
     max-width: 1300px;
     margin: auto;
     padding: 2rem;
-    background-color: #050035;
+    background-color: #002147;
     border-radius: 60px;
     border-left: 20px solid black;
     border-right: 20px solid black;
 }
 
-/* ========== img ========= */
+/* ========== Volunteering ========= */
 
-img {
-    width: 150px;
-    height: auto;
-    margin-left: 4rem;
-}
-
-.img-container{
-    background-color: #050035;
-    margin-top: -23rem;
-    margin-left: -15rem;
-    margin-right: auto;
-    padding: 2rem;
-    border-left: 20px solid black;
-    border-right: 20px solid black;
-    border-radius: 50px;
-    width: 200px;
-    min-width: 400px;
-    box-sizing: border-box;
-}
-/* ========== About ========= */
-
-#about{
-    background-color: mediumpurple;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-left: 20px solid #050035;
-    border-radius: 100px;
-}
-
-.about-text {
-    margin-bottom: 1rem;
-}
-
-.About-container {
-    background-color: #050035;
+.volunteering-container {
+    background-color: #002147;
     margin-top: 2rem;
     margin-left: 10rem;
     margin-right: auto;
@@ -172,6 +129,7 @@ img {
     width: 800px;
     min-width: 400px;
     box-sizing: border-box;
+    color: cornflowerblue;
 }
 /* ========== Details ======== */
 
@@ -249,156 +207,4 @@ footer{
         }
     }
 }
-/* =========== Reset & Base ========== */
 
-
-* {
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #0F52BA;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: lightseagreen;
-    line-height: 1.6;
-    padding: 2rem;
-}
-
-/* =========== Header ========== */
-
-header{
-    text-align: center;
-    background-color: darkblue;
-    color: lightseagreen;
-    padding: 2rem;
-    border-radius: 100px;
-    border-left: 20px solid #050035;
-    border-right: 20px solid #050035;
-    margin-bottom: 2rem;
-}
-
-header h1{
-    font-size: 2rem;
-}
-
-.tagline{
-    font-style: italic;
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-}
-
-/* =========== Navigation ========== */
-
-nav ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin:  1rem 0 2rem 0;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-}
-
-nav a{
-    text-decoration: none;
-    color: lightseagreen;
-    font-weight: bold;
-    transition: color 0.3s ease;
-
-
-}
-
-nav a:hover{
-    color: #0047AB;
-    text-decoration: underline;
-}
-
-.nav-container {
-    background: darkblue;
-}
-
-/* =========== Main ========== */
-
-main{
-    max-width: 900px;
-    margin: auto;
-}
-
-
-.container{
-    max-width: 900px;
-    margin: auto;
-    padding: 1rem;
-}
-
-/* ========== About ========= */
-
-#about{
-    background-color: mediumpurple;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-left: 20px solid #050035;
-    border-radius: 100px;
-}
-
-.about-text {
-    margin-bottom: 1rem;
-}
-
-/* ========== Details ======== */
-
-details {
-    margin-top: 2rem;
-    padding: 1.5rem;
-    background-color: #c4a2fc;
-    border: 1px solid #050035;
-    border-radius: 100px;
-}
-
-details summary {
-    cursor: pointer;
-    font-weight: bold;
-}
-
-/* ========== Headings =========== */
-
-h2,h3{
-    color: lightseagreen;
-    margin-bottom: 1rem;
-}
-
-/* ========== responsive design ========= */
-
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
-
-    .theme-toggle {
-        position: static;
-        margin-bottom: 1rem;
-    }
-
-    @media print {
-        .theme-toggle {
-            display: none;
-        }
-
-        body {
-            background: white;
-            color: black;
-        }
-    }
-}
