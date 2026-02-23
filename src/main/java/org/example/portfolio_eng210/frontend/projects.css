@@ -143,6 +143,9 @@ main{
     border-right: 20px solid black;
     border-radius: 30px;
 }
+a,p1{
+    color: cornflowerblue;
+}
 
 /* ========== Details ======== */
 
@@ -169,7 +172,15 @@ h2{
 }
 
 
+/* ========== footer ========= */
+
+footer{
+    color: white;
+    margin-top: 30rem;
+    margin-left: -30rem;
+}
 /* ========== responsive design ========= */
+
 
 @media (max-width: 768px) {
     nav ul {
