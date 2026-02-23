@@ -34,7 +34,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #050035;
+    color: cornflowerblue;
     line-height: 1.6;
     padding: 2rem;
 }
@@ -47,7 +47,7 @@ header{
     position: fixed;
     top: 1rem;
     right: 1rem;
-    color: #050035;
+    color: cornflowerblue;
     padding: 2rem;
     border-radius: 100px;
     border-left: 20px solid black;
@@ -57,6 +57,7 @@ header{
 
 header h1{
     font-size: 2rem;
+    color: cornflowerblue;
 }
 
 
@@ -74,7 +75,7 @@ nav ul{
 
 nav a{
     text-decoration: none;
-    color: #050035;
+    color: cornflowerblue;
     font-weight: bold;
     transition: color 0.3s ease;
     font-size: 2.4rem;
@@ -149,28 +150,21 @@ details summary {
 /* ========== Headings =========== */
 
 h2{
-    color: #050035;
+    color: cornflowerblue;
     margin-bottom: 1rem;
     margin-left: 5rem;
 }
 
-h3{
-    color: #050035;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    text-align: center;
-    font-size: 3rem;
 
-}
 /* ========= P ===========*/
 p{
-    color: #050035;
+    color: cornflowerblue;
     text-align: justify;
     font-size: 1.5rem;
 }
 
 p1{
-    color: #050035;
+    color: cornflowerblue;
     margin-left: 5rem;
     font-weight: bold;
 }
