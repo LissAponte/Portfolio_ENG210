@@ -15,6 +15,12 @@
     --border-radius-lg: 100px;
 }
 
+/* =========== Audio ========== */
+
+audio{
+    color: cornflowerblue;
+}
+
 /* =========== Reset & Base ========== */
 
 
